@@ -1,0 +1,49 @@
+name: 文章の校閲
+
+on:
+  pull_request:
+    branches:
+      - main
+
+env:
+  cache-version: v1
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/yarn
+          key: ${{ env.cache-version }}-${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ env.cache-version }}-${{ runner.os }}-node-
+      - name: install
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
+
+      - name: 校閲
+        run: yarn docs:lint_ci | true
+        shell: bash {0}
+      - name: 校閲を表示
+        run: |
+          if [ -e ./.textlint.log ]; then
+            # create body file
+            pwd_esc=$(pwd | sed 's/\//\\\//g')
+            cat ./.textlint.log | sed "s/${pwd_esc}/### :kimono: ./g" >> ./.body.txt
+            # pr comment
+            gh pr comment --body-file ./.body.txt "${URL}"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.USUYUKI_GITHUB_TOKEN }}
+          URL: ${{ github.event.pull_request.html_url }}

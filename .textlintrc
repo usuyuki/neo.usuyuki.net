@@ -1,0 +1,98 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [
+        ".md"
+      ]
+    }
+  },
+  "_comment1": "コメントアウトしている箇所の校閲はしない",
+  "_comment1_link": "https://github.com/textlint/textlint-filter-rule-comments",
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "_comment2": "技術文書向けのtextlintルール",
+    "_comment2_link": "https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing",
+    "preset-ja-technical-writing": {
+      "_rule2_1": "長すぎる文を取り締まる",
+      "sentence-length": {
+        "max": 100
+      },
+      "_rule2_2": "カンマ制限（長すぎる文を制限)",
+      "max-comma": {
+        "max": 3
+      },
+      "_rule2_3": "連続できる漢字の制限（見にくい文を制限)",
+      "max-kanji-continuous-len": {
+        "max": 6
+      },
+      "_rule2_4": "漢数字使い分けチェック（見にくい文を制限)",
+      "arabic-kanji-numbers": true,
+      "no-doubled-joshi": {
+        "strict": false,
+        "allow": [
+          "か",
+          "が"
+        ]
+      },
+      "_rule2_5": "文末の句点(。)の統一 OR 抜けをチェック",
+      "ja-no-mixed-period": {
+        "periodMark": ".",
+        "allowEmojiAtEnd": false,
+        "allowPeriodMarks": [
+          ":",
+          "…"
+        ]
+      },
+      "_rule2_6": "2重否定しない",
+      "no-double-negative-ja": true,
+      "_rule2_7": "ら抜きしない",
+      "no-dropping-the-ra": true,
+      "_rule2_8": "逆接の接続助詞「が」を連続して使わない",
+      "no-doubled-conjunctive-particle-ga": true,
+      "_rule2_9": "同じ接続詞を連続して使用しない",
+      "no-doubled-conjunction": true,
+      "_rule2_10": "UTF8-MAC 濁点(プ」を「フ」と「゜」で構成するやつ)を取り締まる",
+      "no-nfd": true,
+      "_rule2_11": "不必要な制御文字除外",
+      "no-invalid-control-character": true,
+      "_rule2_12": "不必要なゼロ幅スペースを使用しない",
+      "no-zero-width-spaces": true,
+      "_rule2_13": "感嘆詞を使ってもいい( ! ? ！ ？)",
+      "no-exclamation-question-mark": {
+        "allowHalfWidthExclamation": true,
+        "allowFullWidthExclamation": true,
+        "allowHalfWidthQuestion": true,
+        "allowFullWidthQuestion": true
+      },
+      "_rule2_14": "半角カナを使っても良い（あじわいなので）",
+      "no-hankaku-kana": false,
+      "_rule2_15": "同一の単語使い続けてるは誤字の可能性高いので除外",
+      "ja-no-successive-word": true,
+      "_rule2_16": "日本語の誤用を取り締まる",
+      "ja-no-abusage": true,
+      "_rule2_17": "冗長表現除外(することができる→できる　など)",
+      "ja-no-redundant-expression": true,
+      "_rule2_18": "入力ミス由来のアルファベット除外",
+      "ja-unnatural-alphabet": true,
+      "_rule2_19": "対になっていない括弧をチェック",
+      "no-unmatched-pair": true,
+      "spellcheck-tech-word": true
+    },
+    "_comment3": "日本語周りにおけるスペースの有無を決定するtextlintルール",
+    "_comment3_link": "https://github.com/textlint-ja/textlint-rule-preset-ja-spacing",
+    "preset-ja-spacing": {
+      "_rule3_1": "半角文字と全角文字の間にスペースを入れる",
+      "ja-space-between-half-and-full-width": {
+        "space": "always",
+        "exceptPunctuation": true
+      },
+      "_rule3_2": "インラインコードの周りにスペースを入れるか",
+      "ja-space-around-code": {
+        "before": true,
+        "after": true
+      }
+    }
+  }
+}
