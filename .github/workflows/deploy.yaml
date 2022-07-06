@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  cache-version: v1
+  cache-version: v3
 
 jobs:
   build-deploy:
@@ -20,7 +20,7 @@ jobs:
           node-version: "16.x"
 
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.cache/yarn
           key: ${{ env.cache-version }}-${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
@@ -37,4 +37,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.USUYUKI_GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./docs/.vitepress/dist
