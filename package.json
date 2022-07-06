@@ -21,6 +21,6 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "docs:lint": "yarn textlint \"docs/**\"",
-    "docs:lint_ci": "yarn textlint \"docs/**\"  >> ./.textlint.log"
+    "docs:lint_ci": "yarn textlint \"docs/**\" -o ./.textlint.log"
   }
 }
