@@ -22,7 +22,8 @@ textlint を使うと文章校正が CI でできる.
 },
 ```
 
-こう書くと,墾田永年私財法を弾ける.
+こう書くと,墾田\_永年\_私財法を弾ける.  
+![ci_konden_error](/img/articles/first/ci_konden_error.png.jpg)
 
 画像が載せられるみたいなので,載せてみる.  
 ぽすさんみたいに綺麗な画像ではないが.
