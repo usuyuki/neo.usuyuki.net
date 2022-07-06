@@ -1,5 +1,4 @@
 export default {
-  title: "neo.blog.usuyuki.net",
+  title: "neo.usuyuki.net",
   description: "Inspired by xiupos",
-  // base: "/neo.blog.usuyuki.net/",
 };
