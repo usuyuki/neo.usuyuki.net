@@ -1,6 +1,3 @@
 node_modules
 .textlint.log
-docs/.vitepress/dist/assets
-docs/.vitepress/dist/img
-docs/.vitepress/dist/*.html
-docs/.vitepress/dist/*.json
+docs/.vitepress/dist
