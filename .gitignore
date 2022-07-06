@@ -1,3 +1,4 @@
 node_modules
 .textlint.log
 docs/.vitepress/dist
+!docs/.vitepress/dist/CNAME
