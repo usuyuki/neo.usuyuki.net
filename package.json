@@ -13,7 +13,6 @@
     "textlint-rule-preset-ja-spacing": "^2.2.0",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "vite": "^2.9.13",
     "vitepress": "^1.0.0-alpha.4",
     "vue": "^3.2.37"
   },

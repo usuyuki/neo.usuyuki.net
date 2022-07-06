@@ -8,3 +8,5 @@
 心惹かれたブログの影響を受けて.  
 [xiupos.net](https://xiupos.net/)  
 心動かされるものを見た時に,自分も作りたいって思える人間なので.
+
+<a href="/first">VitePress を使う</a>
