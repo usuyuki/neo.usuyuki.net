@@ -9,7 +9,8 @@ lang: ja-JP
 
 この文章は vitePress で作った.  
 これまでひたすらに WordPress を使ってきたが,ちょっと設計思想的にも肌に合わなくなってきたので.
-あと,デフォルトで vitePress はおしゃれすぎる.
+あと,デフォルトで vitePress はおしゃれ.  
+さらに,v1.0.0 ということで今風な感じもする.
 
 # textlint を使った
 
@@ -23,7 +24,7 @@ textlint を使うと文章校正が CI でできる.
 ```
 
 こう書くと,墾田\_永年\_私財法を弾ける.  
-![ci_konden_error](/img/articles/first/ci_konden_error.png.jpg)
+![ci_konden_error](/img/articles/first/ci_konden_error.png)
 
 画像が載せられるみたいなので,載せてみる.  
 ぽすさんみたいに綺麗な画像ではないが.
