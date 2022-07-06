@@ -1,0 +1,16 @@
+🗃articles:
+  - docs/**/*.md
+👀appearance:
+  - docs/.vitepress/theme/*
+  - docs/.vitepress/components/*
+🛠config:
+  - docs/.vitepress/config.js
+✈ci:
+  - .github/workflows/*
+  - .github/labeler.yml
+📄docs:
+  - README.md
+  - LICENSE
+📦package:
+  - package.json
+  - yarn.lock
