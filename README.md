@@ -9,9 +9,19 @@ https://xiupos.net
 
 # Development
 
+開発で見るよう
+
 ```
 yarn docs:dev
 ```
+
+校閲
+
+```
+yarn docs:lint
+```
+
+本番用
 
 ```
 yarn docs:build

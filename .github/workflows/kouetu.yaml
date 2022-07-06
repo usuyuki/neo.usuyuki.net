@@ -40,7 +40,7 @@ jobs:
           if [ -e ./.textlint.log ]; then
             # create body file
             pwd_esc=$(pwd | sed 's/\//\\\//g')
-            cat ./.textlint.log | sed "s/${pwd_esc}/### :policeman: ./g" >> ./.body.txt
+            cat ./.textlint.log | sed "s/${pwd_esc}/### :kimono: ./g" >> ./.body.txt
             # pr comment
             gh pr comment --body-file ./.body.txt "${URL}"
           fi
