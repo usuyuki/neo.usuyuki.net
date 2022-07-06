@@ -33,8 +33,10 @@ jobs:
       - name: build
         run: yarn docs:build
 
-      - name: deploy
+      - name: copy CNAME
         run: cp CNAME docs/.vitepress/dist/CNAME
+
+      - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.USUYUKI_GITHUB_TOKEN }}
