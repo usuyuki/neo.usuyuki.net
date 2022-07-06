@@ -9,34 +9,34 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-22.04
-      steps:
-        - uses: actions/checkout@v2
-        - name: setup node
-          uses: actions/setup-node@v1
-          with:
-            node-version: '16.x'
-
-
-      - name: Cache dependencies
-        uses: actions/cache@v2
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup node
+        uses: actions/setup-node@v1
         with:
-          path: ~/.cache/yarn
-          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-              ${{ runner.os }}-node-
+          node-version: '16.x'
 
 
-      - name: install
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/yarn
+        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+            ${{ runner.os }}-node-
 
 
-      - name: build
-        run: yarn docs:build
+    - name: install
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: yarn install
 
 
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.USUYUKI_GITHUB_TOKEN }}
-          publish_dir: ./dist
+    - name: build
+      run: yarn docs:build
+
+
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.USUYUKI_GITHUB_TOKEN }}
+        publish_dir: ./dist
