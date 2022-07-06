@@ -33,7 +33,7 @@ jobs:
         run: yarn install
 
       - name: 校閲
-        run: yarn docs:lint >> ./.textlint.log
+        run: yarn docs:lint_ci
       - name: 校閲を表示
         run: |
           if [ -e ./.textlint.log ]; then
