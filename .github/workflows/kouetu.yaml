@@ -1,7 +1,7 @@
-name: GitHubPagesへのGitHubActions経由でのVitePressのデプロイ
+name: 文章の校閲
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -30,11 +30,5 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
 
-      - name: build
-        run: yarn docs:build
-
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.USUYUKI_GITHUB_TOKEN }}
-          publish_dir: ./dist
+      - name: lint
+        run: yarn docs:lint
