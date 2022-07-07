@@ -1,5 +1,5 @@
 ---
-title: VitePressを使う
+title: VitePressを使う(2022/7/6)
 lang: ja-JP
 date: 2022-07-06T02:50:00+09:00"
 ---
