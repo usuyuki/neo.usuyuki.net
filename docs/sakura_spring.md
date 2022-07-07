@@ -21,7 +21,7 @@ lang: ja-JP
 
 ![kaeru](/img/articles/sakura_spring/kaeru.jpg)
 
-建物全体が地元で採れる[大谷石](https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%B0%B7%E7%9F%B3)で覆われていて, 味わい深い.  
+建物全体が地元産の[大谷石](https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%B0%B7%E7%9F%B3)で覆われていて, 味わい深い.  
 電球色な照明も良い.
 
 当たり前だけど内部の写真は無い.
