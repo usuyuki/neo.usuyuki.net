@@ -18,10 +18,14 @@ lang: ja-JP
 
 <hr>
 
-[VitePress を使う](/first)
+[木曜日に温泉に](/sakura_spring)
 
 <hr>
 
 [ぽすさんブログについて思っていること](/xiupos)
+
+<hr>
+
+[VitePress を使う](/first)
 
 <hr>
