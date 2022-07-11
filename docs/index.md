@@ -18,7 +18,7 @@ lang: ja-JP
 
 <hr>
 
-[木曜日に温泉に](/sakura_spring)
+[木曜日に温泉へ](/sakura_spring)
 
 <hr>
 
