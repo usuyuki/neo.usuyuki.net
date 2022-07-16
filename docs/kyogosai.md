@@ -16,7 +16,9 @@ lang: ja-JP
 ## 開封
 
 5 種類のお香が 5 つずつ入っている.
+
 ![nakami](/img/articles/kyogosai/DSCF3042.jpg)
+
 5 種類の香りが混じった, 明らかに高級な香りがする.  
 当たり前だけど,5 種類それぞれ香りが違う.
 
@@ -29,14 +31,18 @@ lang: ja-JP
 
 実は「天平」は届いたときに試しちゃったので,「二条」を試す.  
 二条と言われても二条城くらいしか印象はない.  
-白檀ベースに華やかさが添えられているらしい.  
+白檀ベースに華やかさが添えられているらしい.
+
 ![erabi](/img/articles/kyogosai/DSCF3044.jpg)
 
 [後ろのキーボード](https://www2.razer.com/jp-jp/gaming-keyboards-keypads/razer-blackwidow-lite)が光り輝きすぎだが, それも華やかさだ.  
 香器は日本香堂の[ゆかり](https://www.nipponkodo.co.jp/shop/products/detail/36957).
+
 ![kouki](/img/articles/kyogosai/DSCF3046.jpg)
 
-白檀っぽさを感じつつも, ほんのり甘みを感じる.  
+白檀っぽさを感じつつも, ほんのり甘みを感じる.
+
 ![nensyou](/img/articles/kyogosai/DSCF3051.jpg)
+
 香りを言語化するのは難しいが, たしかに華やかさを感じた.  
 洋館の書斎で香りそうな雰囲気がある.
