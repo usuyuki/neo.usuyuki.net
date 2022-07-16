@@ -18,6 +18,10 @@ lang: ja-JP
 
 <hr>
 
+[松栄堂 芳輪 京五彩](/kyogosai)
+
+<hr>
+
 [木曜日に温泉へ](/sakura_spring)
 
 <hr>
