@@ -22,6 +22,10 @@ lang: ja-JP
 
 <hr>
 
+[フジフィルムの X-S10 を買った](/fujixs10)
+
+<hr>
+
 [木曜日に温泉へ](/sakura_spring)
 
 <hr>
