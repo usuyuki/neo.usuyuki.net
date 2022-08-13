@@ -85,7 +85,7 @@ lang: ja-JP
 
 ![海からの横須賀](/img/articles/yokosuka/DSCF3318.jpg)
 
-海上自衛隊の自衛隊旗とご対面.
+海上自衛隊の自衛艦旗とご対面.
 
 ![戦艦模型](/img/articles/yokosuka/DSCF3324.jpg)
 
@@ -124,7 +124,7 @@ lang: ja-JP
 
 護衛艦きりしまも停泊中.
 
-![自衛隊旗](/img/articles/yokosuka/DSCF3365.jpg)
+![自衛艦旗](/img/articles/yokosuka/DSCF3365.jpg)
 
 しらせが来ているという噂を聞いていたが, タイミングが合わなかった模様で見られなかった…
 
