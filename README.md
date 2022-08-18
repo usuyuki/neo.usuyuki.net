@@ -27,7 +27,7 @@ yarn docs:dev
 yarn docs:lint
 ```
 
-本番.
+本番.(ローカル環境でも一旦ビルドしてエラーでないか確認 ←docs:dev ではエラーすり抜けるので)
 
 ```
 yarn docs:build
