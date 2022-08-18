@@ -25,7 +25,7 @@
       },
       "_rule2_3": "連続できる漢字の制限（見にくい文を制限)",
       "max-kanji-continuous-len": {
-        "max": 6
+        "max": 14
       },
       "_rule2_4": "漢数字使い分けチェック（見にくい文を制限)",
       "arabic-kanji-numbers": true,
@@ -93,6 +93,8 @@
         "before": true,
         "after": true
       }
-    }
+    },
+    "_rule4_1": "思うなどの弱い表現を使ってもよい",
+    ; "ja-no-weak-phrase": false,
   }
 }
