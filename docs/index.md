@@ -18,6 +18,10 @@ lang: ja-JP
 
 <hr>
 
+[国立極地研究所に行った(2022/9/3)](/nipr)
+
+<hr>
+
 [皇居ウォークをしてみた(2022/8/14)](/go_around_imperial_palace)
 
 <hr>
